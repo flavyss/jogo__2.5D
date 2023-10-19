@@ -1,0 +1,65 @@
+html,
+body{
+    background-color: #00031d;
+    color: #fff;
+    text-align: center;
+}
+.campo{
+    width: 800px;
+    height: 400px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    overflow:hidden;
+    position: relative;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fopengameart.org%2Fsites%2Fdefault%2Ffiles%2Fgrass_14.png);
+}
+
+.personagem{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(sprites/baixo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bau{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    top: 200px;
+    left:400px;
+}
+
+.anda{
+    left: 15px !important;
+}
+
+.traz{
+    background-image: url(sprites/traz.gif) !important;    
+}
+
+.frente{
+    background-image: url(sprites/fan.gif) !important;    
+}
+.cima{
+    background-image: url(sprites/cima.gif) !important;    
+}
+.baixo{
+    background-image: url(sprites/baixo.gif) !important;    
+}
+.parado{
+    background-image: url(sprites/parado.gif) !important;    
+}
+
+.ataque{
+    background-image: url(sprites/atack.gif) !important;    
+}
+
+
+@keyframes andando {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
